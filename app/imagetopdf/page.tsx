@@ -123,8 +123,10 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center gap-3">
-              <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-violet-500 to-fuchsia-500 shadow-lg shadow-violet-500/25">
-                <FileImage className="h-5 w-5 text-white" />
+              <div className="relative h-10 w-10 overflow-hidden rounded-xl bg-gradient-to-br from-violet-500 to-fuchsia-500 shadow-lg shadow-violet-500/25 p-0.5">
+                <div className="h-full w-full overflow-hidden rounded-[10px] bg-white dark:bg-zinc-900 flex items-center justify-center">
+                  <img src="/logo-pdf.png" alt="Logo" className="h-8 w-8 object-cover" />
+                </div>
               </div>
               <div>
                 <h1 className="text-lg font-bold text-foreground">Image to PDF</h1>

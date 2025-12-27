@@ -17,6 +17,9 @@ export const metadata: Metadata = {
   title: "Gokul's Apps | Developer Utilities",
   description: "A private, client-side collection of developer utilities including Image to PDF conversion. Secure, fast, and free.",
   keywords: ["developer tools", "utilities", "image to pdf", "client side tools", "privacy"],
+  icons: {
+    icon: "/logo.png",
+  },
 };
 
 export default function RootLayout({
