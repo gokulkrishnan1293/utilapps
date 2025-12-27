@@ -14,9 +14,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Image to PDF Converter | Free Online Tool",
-  description: "Convert your images to PDF instantly. Drag & drop, reorder, and download. 100% client-side processing for maximum privacy. Supports JPG, PNG, and WebP.",
-  keywords: ["image to pdf", "convert images", "pdf converter", "free pdf tool", "online converter"],
+  title: "Gokul's Apps | Developer Utilities",
+  description: "A private, client-side collection of developer utilities including Image to PDF conversion. Secure, fast, and free.",
+  keywords: ["developer tools", "utilities", "image to pdf", "client side tools", "privacy"],
 };
 
 export default function RootLayout({
