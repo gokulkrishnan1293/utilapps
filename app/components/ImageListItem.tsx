@@ -91,13 +91,13 @@ export function ImageListItem({ image, index, onRemove, onOrientationChange }: I
             ref={setNodeRef}
             style={style}
             layout
-            initial={{ opacity: 0, x: -20 }}
+            initial={{ opacity: 0 }}
             animate={{
                 opacity: isDragging ? 0.5 : 1,
                 scale: isDragging ? 1.02 : 1,
                 boxShadow: isDragging ? '0 10px 40px rgba(0,0,0,0.2)' : '0 1px 3px rgba(0,0,0,0.1)',
             }}
-            exit={{ opacity: 0, x: -20 }}
+            exit={{ opacity: 0 }}
             className={`
         relative flex items-center gap-3 p-3 rounded-xl
         bg-white dark:bg-zinc-800 border
