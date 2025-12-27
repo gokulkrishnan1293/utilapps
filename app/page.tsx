@@ -31,7 +31,7 @@ export default function Home() {
             </div>
             <div className="flex items-center gap-4">
               <Link
-                href="https://github.com/gokulkrishnan1293"
+                href="https://github.com/gokulkrishnan1293/utilapps"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 text-zinc-500 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-zinc-100 transition-colors"
@@ -56,7 +56,6 @@ export default function Home() {
           </h1>
           <p className="text-lg sm:text-xl text-zinc-600 dark:text-zinc-400 max-w-2xl mx-auto">
             A privacy-first collection of developer utilities and tools.
-            No server uploads, no data collection. Just pure functionality.
           </p>
         </div>
 
@@ -93,9 +92,7 @@ export default function Home() {
           <div className="group relative overflow-hidden rounded-3xl border border-dashed border-zinc-200 dark:border-zinc-800 p-8 flex flex-col items-center justify-center text-center opacity-60 hover:opacity-100 hover:border-zinc-300 dark:hover:border-zinc-700 transition-all">
             <div className="text-4xl mb-4">✨</div>
             <h3 className="text-lg font-semibold text-zinc-900 dark:text-zinc-100">More coming soon</h3>
-            <p className="text-zinc-500 dark:text-zinc-400 text-sm mt-2">
-              JSON Formatter, Base64 Encoder, and more...
-            </p>
+            
           </div>
         </div>
       </main>
